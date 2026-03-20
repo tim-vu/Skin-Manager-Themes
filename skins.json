@@ -1,0 +1,181 @@
+[
+    {
+        "name": "Default",
+        "author": "Jellyfin",
+        "description": "The default Jellyfin look. No custom CSS is applied.",
+        "version": "1.0.0",
+        "jellyfin": "10.11+",
+        "tags": [
+            "default",
+            "official"
+        ],
+        "previewUrl": "https://jellyfin.org/images/logo.svg",
+        "screenshots": [],
+        "sourceUrl": "https://jellyfin.org",
+        "cssUrl": ""
+    },
+    {
+        "name": "ElegantFin",
+        "author": "lscambo13",
+        "description": "A modern Jellyfin theme inspired by Jellyseerr. Brings fresh layouts, smooth animations, rounded corners, stylish borders, and hover effects. Works great on mobile, desktop, and TV with a single import.",
+        "version": "25.12.31",
+        "jellyfin": "10.10+",
+        "tags": [
+            "dark",
+            "modern",
+            "mobile-friendly",
+            "tv"
+        ],
+        "previewUrl": "https://raw.githubusercontent.com/lscambo13/ElegantFin/main/screenshots/ElegantFin-Preview.png",
+        "screenshots": [
+            "https://raw.githubusercontent.com/lscambo13/ElegantFin/main/screenshots/ElegantFin-Preview.png"
+        ],
+        "sourceUrl": "https://github.com/lscambo13/ElegantFin",
+        "cssUrl": "https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css",
+        "cssImport": "@import url(\"https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css\");"
+    },
+    {
+        "name": "Ultrachromic (Monochromic Preset)",
+        "author": "CTalvio",
+        "description": "The final form of the chromic theme saga. A refined, highly customisable dark theme with backdrop support, hover glow effects, and a rich modular design. The monochromic preset is muted and minimal.",
+        "version": "latest",
+        "jellyfin": "10.10+",
+        "tags": [
+            "dark",
+            "minimal",
+            "modular",
+            "backdrops"
+        ],
+        "previewUrl": "https://raw.githubusercontent.com/CTalvio/Ultrachromic/main/assets/background.png",
+        "screenshots": [
+            "https://raw.githubusercontent.com/CTalvio/Ultrachromic/main/assets/background.png"
+        ],
+        "sourceUrl": "https://github.com/CTalvio/Ultrachromic",
+        "cssUrl": "https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/monochromic_preset.css",
+        "cssImport": "@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/monochromic_preset.css');"
+    },
+    {
+        "name": "Ultrachromic (Novachromic Preset)",
+        "author": "CTalvio",
+        "description": "A vibrant and colorful take on Ultrachromic. The Novachromic preset adds rich color accents and glowing effects on top of the Ultrachromic foundation.",
+        "version": "latest",
+        "jellyfin": "10.10+",
+        "tags": [
+            "dark",
+            "colorful",
+            "backdrops"
+        ],
+        "previewUrl": "https://raw.githubusercontent.com/CTalvio/Ultrachromic/main/assets/background.png",
+        "screenshots": [],
+        "sourceUrl": "https://github.com/CTalvio/Ultrachromic",
+        "cssUrl": "https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/novachromic_preset.css",
+        "cssImport": "@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/presets/novachromic_preset.css');"
+    },
+    {
+        "name": "JellySkin",
+        "author": "prayag17",
+        "description": "Vibrant and minimal Jellyfin CSS with custom icons and animations. One of the most popular Jellyfin themes. Recommended to enable Backdrops and Fanart metadata for best results.",
+        "version": "latest",
+        "jellyfin": "10.10+",
+        "tags": [
+            "dark",
+            "vibrant",
+            "icons",
+            "animations",
+            "popular"
+        ],
+        "previewUrl": "",
+        "screenshots": [],
+        "sourceUrl": "https://github.com/prayag17/JellySkin",
+        "cssUrl": "https://cdn.jsdelivr.net/npm/jellyskin@latest/dist/main.css",
+        "cssImport": "@import url(\"https://cdn.jsdelivr.net/npm/jellyskin@latest/dist/main.css\");"
+    },
+    {
+        "name": "ZestyTheme",
+        "author": "stpnwf",
+        "description": "A minimal and elegant theme for Jellyfin inspired by Ultrachromic, Glassmorphism, Scyfin, JellyTheme and Zombie. Supports 10.11+ with two login wallpaper options. Requires Backdrops enabled.",
+        "version": "latest",
+        "jellyfin": "10.11+",
+        "tags": [
+            "dark",
+            "minimal",
+            "elegant",
+            "backdrops"
+        ],
+        "previewUrl": "",
+        "screenshots": [],
+        "sourceUrl": "https://github.com/stpnwf/ZestyTheme",
+        "cssUrl": "https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css",
+        "cssImport": "@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');"
+    },
+    {
+        "name": "Scyfin",
+        "author": "loof2736",
+        "description": "A clean custom theme for Jellyfin WebUI. Comes in multiple color variants including Seafoam, Coral, Snow and OLED. This entry loads the default Seafoam variant.",
+        "version": "latest",
+        "jellyfin": "10.10+",
+        "tags": [
+            "dark",
+            "minimal",
+            "color-variants"
+        ],
+        "previewUrl": "",
+        "screenshots": [],
+        "sourceUrl": "https://github.com/loof2736/scyfin",
+        "cssUrl": "https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/scyfin-theme.css",
+        "cssImport": "@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/scyfin-theme.css');"
+    },
+    {
+        "name": "Finimalism",
+        "author": "tedhinklater",
+        "description": "A minimalist Jellyfin theme with a clean, stripped-back aesthetic. Simple and fast.",
+        "version": "latest",
+        "jellyfin": "10.11+",
+        "tags": [
+            "minimal",
+            "clean",
+            "light"
+        ],
+        "previewUrl": "",
+        "screenshots": [],
+        "sourceUrl": "https://github.com/tedhinklater/finimalism",
+        "cssUrl": "https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism11.css",
+        "cssImport": "@import url(\"https://cdn.jsdelivr.net/gh/tedhinklater/finimalism@main/Finimalism11.css\");"
+    },
+    {
+        "name": "Dracula",
+        "author": "derektata",
+        "description": "A Jellyfin theme based on the iconic Dracula color palette. Deep purples, pinks, and greens for a developer-friendly dark aesthetic.",
+        "version": "latest",
+        "jellyfin": "10.10+",
+        "tags": [
+            "dark",
+            "dracula",
+            "purple",
+            "developer"
+        ],
+        "previewUrl": "",
+        "screenshots": [],
+        "sourceUrl": "https://github.com/derektata/jellyfin-themes",
+        "cssUrl": "https://derektata.github.io/jellyfin-themes/dracula.css",
+        "cssImport": "@import url('https://derektata.github.io/jellyfin-themes/dracula.css');"
+    },
+    {
+        "name": "One Dark",
+        "author": "derektata",
+        "description": "A Jellyfin theme based on the One Dark color scheme popularized by Atom editor. Cool blues and muted tones for a clean coding-inspired look.",
+        "version": "latest",
+        "jellyfin": "10.10+",
+        "tags": [
+            "dark",
+            "one-dark",
+            "blue",
+            "developer"
+        ],
+        "previewUrl": "",
+        "screenshots": [],
+        "sourceUrl": "https://github.com/derektata/jellyfin-themes",
+        "cssUrl": "https://derektata.github.io/jellyfin-themes/one-dark.css",
+        "cssImport": "@import url('https://derektata.github.io/jellyfin-themes/one-dark.css');"
+    }
+]
