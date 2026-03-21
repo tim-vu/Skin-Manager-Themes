@@ -26,7 +26,7 @@
             "mobile-friendly",
             "tv"
         ],
-        "previewUrl": "https://raw.githubusercontent.com/lscambo13/ElegantFin/main/screenshots/ElegantFin-Preview.png",
+        "previewUrl": "https://raw.githubusercontent.com/lscambo13/ElegantFin/main/Theme/assets/img/banner.png",
         "screenshots": [
             "https://raw.githubusercontent.com/lscambo13/ElegantFin/main/screenshots/ElegantFin-Preview.png"
         ],
@@ -149,7 +149,7 @@
             "animations",
             "popular"
         ],
-        "previewUrl": "",
+        "previewUrl": "https://private-user-images.githubusercontent.com/55829513/335487866-075d844b-ca43-4f61-b54a-cb75110e77ed.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQxMjk4MTgsIm5iZiI6MTc3NDEyOTUxOCwicGF0aCI6Ii81NTgyOTUxMy8zMzU0ODc4NjYtMDc1ZDg0NGItY2E0My00ZjYxLWI1NGEtY2I3NTExMGU3N2VkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAzMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMzIxVDIxNDUxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJlOThlMjk4MTE3YmU0YmNhZDFhMmJjNDgyODdkODZjMjY0OGU4ZmY2NDNhODg5ZWM4OWJkZmMwNTYxYWYzZjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5CmiDO1iKooeiS_P2rEm6oTgggWA-BXhfE4OZFTkoAo",
         "screenshots": [],
         "sourceUrl": "https://github.com/prayag17/JellySkin",
         "cssUrl": "https://cdn.jsdelivr.net/npm/jellyskin@latest/dist/main.css",
