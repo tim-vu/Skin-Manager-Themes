@@ -44,8 +44,8 @@
             {
                 "key": "ACCENT_COLOR_ALPHA",
                 "name": "Accent Color (with opacity)",
-                "description": "Same color as Accent Color but at ~90% opacity. Update this to match your accent color, e.g. rgba(119,91,244,0.9).",
-                "type": "text",
+                "description": "Same color as Accent Color but at ~90% opacity. Update this to match your accent color.",
+                "type": "color",
                 "default": "rgba(119, 91, 244, 0.9)"
             },
             {
