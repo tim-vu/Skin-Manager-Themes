@@ -126,7 +126,7 @@
     "version": "latest",
     "jellyfin": "10.11+",
     "tags": ["dark", "modern", "backdrops", "indicators"],
-    "previewUrl": "",
+    "previewUrl": "https://i.imgur.com/cYr5Uv2.png",
     "sourceUrl": "https://github.com/tromoSM/better-jellyfin-ui",
     "cssUrl": "https://cdn.jsdelivr.net/gh/tromoSM/better-jellyfin-ui@main/theme.css"
   },
