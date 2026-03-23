@@ -24,7 +24,7 @@
       {
         "key": "ACCENT_COLOR",
         "name": "Accent Color",
-        "description": "Primary accent color for backgrounds, buttons, and highlights. Supports gradients.",
+        "description": "Primary accent color for backgrounds, buttons, and highlights.",
         "type": "color",
         "default": "#775bf4"
       },
@@ -39,7 +39,7 @@
       {
         "key": "ACCENT_COLOR_ALPHA",
         "name": "Accent Color (with opacity)",
-        "description": "Accent color at ~90% opacity, used for selection highlights and overlays. Supports gradients.",
+        "description": "Accent color at ~90% opacity, used for selection highlights and overlays.",
         "type": "color",
         "default": "rgba(119, 91, 244, 0.9)"
       },
