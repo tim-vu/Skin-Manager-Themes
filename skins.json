@@ -26,7 +26,8 @@
         "name": "Accent Color",
         "description": "Primary accent color for backgrounds, buttons, and highlights.",
         "type": "color",
-        "default": "#775bf4"
+        "default": "#775bf4",
+        "allowGradient": false
       },
       {
         "key": "ACCENT_COLOR_SOLID",
@@ -41,7 +42,8 @@
         "name": "Accent Color (with opacity)",
         "description": "Accent color at ~90% opacity, used for selection highlights and overlays.",
         "type": "color",
-        "default": "rgba(119, 91, 244, 0.9)"
+        "default": "rgba(119, 91, 244, 0.9)",
+        "allowGradient": false
       },
       {
         "key": "ACCENT_COLOR_SOLID_ALPHA",
@@ -52,12 +54,18 @@
         "allowGradient": false
       },
       {
-        "key": "DARKER_GRADIENT_POINT",
-        "name": "Background Gradient Dark Color",
-        "description": "The darker color used in page background gradients. Supports gradients for multi-tone backgrounds.",
+        "key": "BACKGROUND_GRADIENT",
+        "name": "Page Background Gradient",
+        "description": "Gradient used for main page backgrounds.",
         "type": "color",
-        "default": "#111827",
-        "allowGradient": false
+        "default": "linear-gradient(0deg, #111827 35%, #1d2635)"
+      },
+      {
+        "key": "CARD_BACKGROUND_GRADIENT",
+        "name": "Card Background Gradient",
+        "description": "Gradient used for card and panel backgrounds throughout the theme.",
+        "type": "color",
+        "default": "linear-gradient(0deg, #1d2635, 25%, #111827)"
       },
       {
         "key": "DARKER_BORDER_COLOR",
