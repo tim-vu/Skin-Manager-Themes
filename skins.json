@@ -14,7 +14,7 @@
     "name": "ElegantFin",
     "author": "lscambo13",
     "description": "A modern Jellyfin theme inspired by Jellyseerr. Brings fresh layouts, smooth animations, rounded corners, stylish borders, and hover effects. Works great on mobile, desktop, and TV with a single import.",
-    "version": "25.12.31",
+    "version": "25.12.32",
     "jellyfin": "10.10+",
     "tags": ["dark", "modern", "mobile-friendly", "tv"],
     "previewUrl": "https://i.imgur.com/drRNLnf.jpeg",
