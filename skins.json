@@ -26,7 +26,7 @@
         "name": "Accent Color",
         "description": "Primary accent color for backgrounds, buttons, and highlights. Supports gradients.",
         "type": "color",
-        "default": "#775bf4",
+        "default": "#775bf4"
       },
       {
         "key": "ACCENT_COLOR_SOLID",
