@@ -67,15 +67,6 @@
         "falseValue": "0"
       },
       {
-        "key": "ENABLE_LIQUID_GLASS",
-        "name": "Enable Liquid Glass",
-        "description": "Show inset box-shadow highlights.",
-        "type": "boolean",
-        "default": "true",
-        "trueValue": "1",
-        "falseValue": "0"
-      },
-      {
         "key": "ENABLE_FLOATING_HEADER",
         "name": "Enable Floating Header",
         "description": "Make the header a floating pill.",
