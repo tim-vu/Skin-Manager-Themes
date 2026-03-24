@@ -30,7 +30,7 @@ assignees: ''
 
 If your theme supports configurable variables, paste the `vars` array below. Leave this section blank if the theme has no variables.
 
-Each variable needs: `key` (UPPER_SNAKE_CASE), `name`, `description`, `type`, and `default`. Available types: `text`, `color`, `number`, `boolean`.
+Each variable needs: `key` (camelCase), `name`, `description`, `type`, and `default`. Available types: `text`, `color`, `number`, `boolean`.
 
 The key is converted to a CSS custom property automatically, `accentColor` becomes `--accentColor`. Your CSS should reference these via `var(--keyName, fallback)`.
 
