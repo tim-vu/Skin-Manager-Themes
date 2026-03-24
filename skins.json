@@ -22,22 +22,6 @@
     "cssUrl": "https://raw.githubusercontent.com/Jellyfin-PG/Skin-Manager-Themes/refs/heads/main/temp/betterui.css",
     "vars": [
       {
-        "key": "ACCENT_COLOR",
-        "name": "Accent Color",
-        "description": "Main accent.",
-        "type": "color",
-        "default": "#ffffff",
-        "allowGradient": false
-      },
-      {
-        "key": "ACCENT_FOREGROUND",
-        "name": "Accent Foreground",
-        "description": "Text on accent-colored surfaces.",
-        "type": "color",
-        "default": "#000000",
-        "allowGradient": false
-      },
-      {
         "key": "BG_GLOW_COLOR",
         "name": "BG Glow Color",
         "description": "Top-of-page gradient glow color.",
@@ -79,6 +63,24 @@
         "description": "Animate cards fading in on load.",
         "type": "boolean",
         "default": "true",
+        "trueValue": "1",
+        "falseValue": "0"
+      },
+      {
+        "key": "ENABLE_LIQUID_GLASS",
+        "name": "Enable Liquid Glass",
+        "description": "Show inset box-shadow highlights.",
+        "type": "boolean",
+        "default": "true",
+        "trueValue": "1",
+        "falseValue": "0"
+      },
+      {
+        "key": "ENABLE_FLOATING_HEADER",
+        "name": "Enable Floating Header",
+        "description": "Make the header a floating pill.",
+        "type": "boolean",
+        "default": "false",
         "trueValue": "1",
         "falseValue": "0"
       }
