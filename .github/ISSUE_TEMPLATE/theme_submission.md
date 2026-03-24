@@ -32,12 +32,12 @@ If your theme supports configurable variables, paste the `vars` array below. Lea
 
 Each variable needs: `key` (UPPER_SNAKE_CASE), `name`, `description`, `type`, and `default`. Available types: `text`, `color`, `number`, `boolean`.
 
-The key is converted to a CSS custom property automatically, `ACCENT_COLOR` becomes `--accent-color`. Your CSS should reference these via `var(--key-name, fallback)`.
+The key is converted to a CSS custom property automatically, `accentColor` becomes `--accentColor`. Your CSS should reference these via `var(--keyName, fallback)`.
 
 ```json
 [
   {
-    "key": "ACCENT_COLOR",
+    "key": "accentColor",
     "name": "Accent Color",
     "description": "Primary highlight color used throughout the theme.",
     "type": "color",
@@ -62,7 +62,7 @@ In your CSS file:
 In your `vars` array:
 ```json
 {
-  "key": "VAR_KEY",
+  "key": "varKey",
   "name": "Addon Name",
   "description": "What this addon does.",
   "type": "boolean",
@@ -80,7 +80,7 @@ List your addons and their corresponding var keys below:
 - [ ] Theme works on Jellyfin 10.10 or 10.11
 - [ ] Source repository is publicly accessible
 - [ ] `version` field is set in the submission
-- [ ] If vars are included: CSS uses `var(--key-name, fallback)` syntax
+- [ ] If vars are included: CSS uses `var(--keyName, fallback)` syntax
 - [ ] If addons are included: `@sm-import-if` comments are present in the CSS and matching boolean vars are declared
 
 **Checklist**
@@ -89,4 +89,4 @@ List your addons and their corresponding var keys below:
 - [ ] Theme works on Jellyfin 10.10 or 10.11
 - [ ] Theme applies with a single CSS import
 - [ ] Source repository is publicly accessible
-- [ ] If vars are included: CSS uses `var(--key-name)` with no `:root` defaults in the CSS file
+- [ ] If vars are included: CSS uses `var(--keyName)` with no `:root` defaults in the CSS file
