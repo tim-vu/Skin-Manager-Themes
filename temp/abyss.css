@@ -1664,6 +1664,11 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     }
 }
 
+.headerTabs.sectionTabs {
+    padding-bottom: 1em;
+    padding-top: 0px;
+}
+
 /* Item container margins */
 .itemsContainer > .card > .cardBox {
     margin-left: 0.6em !important;
