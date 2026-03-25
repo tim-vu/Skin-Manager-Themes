@@ -135,7 +135,7 @@ Themes can include optional addon stylesheets that users enable or disable using
 Add a special comment to your theme CSS file for each addon:
 
 ```css
-/* @sm-import-if VAR_KEY [https://cdn.jsdelivr.net/gh/author/theme@main/addons/media-bar.css](https://cdn.jsdelivr.net/gh/author/theme@main/addons/media-bar.css) */
+/* @sm-import-if VAR_KEY https://cdn.jsdelivr.net/gh/author/theme@main/addons/media-bar.css */
 ```
 
 When Skin Manager loads your theme, it reads these comments. If `varKey` is `true` in the user's saved vars, the addon URL is fetched and appended to the theme CSS. If it is `false` or unset, the comment is stripped and nothing is loaded.
