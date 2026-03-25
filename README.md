@@ -30,9 +30,9 @@ Each entry in `skins.json` uses the following structure:
   "version": "1.0.0",
   "jellyfin": "10.11+",
   "tags": ["dark", "minimal"],
-  "previewUrl": "[https://example.com/preview.png](https://example.com/preview.png)",
-  "sourceUrl": "[https://github.com/author/theme](https://github.com/author/theme)",
-  "cssUrl": "[https://cdn.jsdelivr.net/gh/author/theme@main/theme.css](https://cdn.jsdelivr.net/gh/author/theme@main/theme.css)"
+  "previewUrl": "https://example.com/preview.png",
+  "sourceUrl": "https://github.com/author/theme",
+  "cssUrl": "https://cdn.jsdelivr.net/gh/author/theme@main/theme.css"
 }
 ```
 
@@ -58,7 +58,7 @@ Add a `vars` array to the theme entry. Each var needs a `key`, `name`, `descript
 {
   "name": "My Theme",
   "version": "1.0.0",
-  "cssUrl": "[https://cdn.jsdelivr.net/gh/author/theme@main/theme.css](https://cdn.jsdelivr.net/gh/author/theme@main/theme.css)",
+  "cssUrl": "https://cdn.jsdelivr.net/gh/author/theme@main/theme.css",
   "vars": [
     {
       "key": "accentColor",
@@ -160,7 +160,7 @@ Declare the corresponding var as a `boolean` type in `skins.json`:
 {
   "name": "My Theme",
   "version": "1.2.0",
-  "cssUrl": "[https://cdn.jsdelivr.net/gh/author/theme@main/theme.css](https://cdn.jsdelivr.net/gh/author/theme@main/theme.css)",
+  "cssUrl": "https://cdn.jsdelivr.net/gh/author/theme@main/theme.css",
   "vars": [
     {
       "key": "accentColor",
@@ -190,8 +190,8 @@ Declare the corresponding var as a `boolean` type in `skins.json`:
 `theme.css`:
 
 ```css
-/* @sm-import-if mediaBarSupport [https://cdn.jsdelivr.net/gh/author/theme@main/addons/media-bar.css](https://cdn.jsdelivr.net/gh/author/theme@main/addons/media-bar.css) */
-/* @sm-import-if customCovers [https://cdn.jsdelivr.net/gh/author/theme@main/addons/custom-covers.css](https://cdn.jsdelivr.net/gh/author/theme@main/addons/custom-covers.css) */
+/* @sm-import-if mediaBarSupport https://cdn.jsdelivr.net/gh/author/theme@main/addons/media-bar.css */
+/* @sm-import-if customCovers https://cdn.jsdelivr.net/gh/author/theme@main/addons/custom-covers.css */
 
 .headerTop {
   background-color: var(--accent-color, #00a4dc);
