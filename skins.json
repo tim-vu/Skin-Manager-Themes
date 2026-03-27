@@ -51,6 +51,12 @@
     "previewUrl": "https://i.imgur.com/drRNLnf.jpeg",
     "sourceUrl": "https://github.com/lscambo13/ElegantFin",
     "cssUrl": "https://raw.githubusercontent.com/Jellyfin-PG/Skin-Manager-Themes/refs/heads/main/temp/elegantfin.min.css",
+    "preconnect": [
+      "https://raw.githubusercontent.com",
+      "https://i.imgur.com",
+      "https://fonts.googleapis.com",
+      "https://fonts.gstatic.com"
+    ],
     "vars": [
       {
         "key": "elegantFinFooterText",
