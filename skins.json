@@ -51,11 +51,15 @@
     "previewUrl": "https://i.imgur.com/drRNLnf.jpeg",
     "sourceUrl": "https://github.com/lscambo13/ElegantFin",
     "cssUrl": "https://cdn.jsdelivr.net/gh/Jellyfin-PG/Skin-Manager-Themes@main/temp/elegantfin.min.css",
-    "preconnect": [
-      "https://raw.githubusercontent.com",
-      "https://i.imgur.com",
-      "https://fonts.googleapis.com",
-      "https://fonts.gstatic.com"
+    "preload": [
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+        "as": "font"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/sykg-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190Fjzag.woff2",
+        "as": "font"
+      }
     ]
   },
   {
@@ -68,11 +72,15 @@
     "previewUrl": "https://i.imgur.com/drRNLnf.jpeg",
     "sourceUrl": "https://github.com/lscambo13/ElegantFin",
     "cssUrl": "https://raw.githubusercontent.com/Jellyfin-PG/Skin-Manager-Themes/refs/heads/main/temp/elegantfin.min.css",
-    "preconnect": [
-      "https://raw.githubusercontent.com",
-      "https://i.imgur.com",
-      "https://fonts.googleapis.com",
-      "https://fonts.gstatic.com"
+    "preload": [
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+        "as": "font"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsrounded/v267/sykg-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190Fjzag.woff2",
+        "as": "font"
+      }
     ],
     "vars": [
       {
